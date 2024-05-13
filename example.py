@@ -25,6 +25,6 @@ ax.format(
 )
 ax.legend(ncols=1)
 pplt.show()
-fig.savefig("docs/img/penalty.png")
+# fig.savefig("docs/img/penalty.png")
 
 # %%

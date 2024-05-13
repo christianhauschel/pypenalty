@@ -4,10 +4,11 @@ Smooth penalty functions for optimization.
 
 ## Example
 
-`example.py`:
+See the script `example.py`. Here some resulting plots:
 
 <img src="docs/img/penalty.png" width=500px></img>
 
+The smooth square root has the advantage of a steeper increase in the vicinity of the lower/upper bounds.
 
 ## References
 

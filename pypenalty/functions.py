@@ -5,7 +5,7 @@ from copy import copy
 """Penalty functions."""
 
 
-def power(x: Union[float, np.array], x_0: float, power: float, weight: float) -> Union[float, np.array]:
+def power(x: Union[float, np.array], x_0: float, power: float = 2.0, weight: float = 1.0) -> Union[float, np.array]:
     """Calculates the power function as penalty function.
 
     Parameters
@@ -13,9 +13,9 @@ def power(x: Union[float, np.array], x_0: float, power: float, weight: float) ->
     x : Union[float, np.array]
     x_0 : floats
         The value of x for which the penalty is zero
-    power : float
+    power : float = 2.0
         Power of the penalty function
-    weight : float
+    weight : float = 1.0
         Multipliying coefficient for the penalty function
 
     Returns
